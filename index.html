@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Blog Post Item</title>
+  <link rel="stylesheet" href="https://public.codepenassets.com/css/normalize-5.0.0.min.css">
+<link rel="stylesheet" href="./style.css">
+
+<style>
+.logo-container {
+       display: flex;
+       justify-content: center;
+       margin-bottom: 15px;
+     }
+
+     .logo-container img {
+       width: 100px;
+       height: auto;
+     }
+
+
+     .info-grid {
+       display: grid;
+       grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+       gap: 10px;
+       margin-top: 20px;
+     }
+
+
+
+     .info-box strong {
+       display: block;
+       font-size: 16px;
+       margin-bottom: 5px;
+       color: #fff;
+     }
+
+
+</style>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="blog-card spring-fever">
+  <div class="title-content">
+
+    <div class="logo-container">
+      <img src="cesva.svg" alt="Logo">
+    </div>
+
+
+    <h3><a href="#">BAJO CONSTRUCCIÓN</a></h3>
+    <div class="intro"> <a href="#">MÁS INFORMACIÓN</a> </div>
+  </div>
+  <div class="card-info">
+
+    <div class="info-grid">
+       <div class="info-box">
+         <strong>DIRECCIÓN</strong>
+         Calle 22 A Bis No. 44 A 77<br>Bogotá D.C.
+       </div>
+       <div class="info-box">
+         <strong>CORREO</strong>
+         cesva10@yahoo.com
+       </div>
+       <div class="info-box">
+         <strong>TELÉFONO</strong>
+         +57 3716406113
+       </div>
+     </div>
+
+
+  </div>
+  <div class="utility-info">
+    <ul class="utility-list">
+      <li><span class="licon icon-like"></span><a href="#">2</a></li>
+      <li><span class="licon icon-com"></span><a href="#">12</a></li>
+      <li><span class="licon icon-dat"></span>2025</li>
+
+    </ul>
+  </div>
+  <div class="gradient-overlay"></div>
+  <div class="color-overlay"></div>
+</div><!-- /.blog-card -->
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
